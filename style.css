@@ -1,0 +1,156 @@
+header{
+    background-color: #264653;
+    ;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+.nav-link{
+    color: white;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    padding: 2% 10%;
+    background-color: tomato;
+    color: white;
+    transform: background-color;
+}
+.login-btn{
+    background-color: tomato;
+    color: white;
+}
+/* Banner Section */
+.banner-section .writing .first-p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.banner-section .writing h1{
+    font-weight: 600;
+}
+.banner-section .writing .second-p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.banner-section .writing .btn-design{
+    background-color: tomato;
+}
+/* Feature bike section */
+.featured-bikes h2{
+    font-weight: 600;
+}
+.featured-bikes p{
+    color: tomato;
+    font-weight: 600;
+}
+.hr-style{
+    border:none;
+    border-bottom: 5px solid #ff3603;
+    width: 10%;
+}
+.featured-bikes .row .col-12 img{
+    width: 260px;
+    height: 220px;
+    margin:0 auto !important;
+}
+.featured-bikes .row .col-12 .gray-img{
+    width: 288px;
+    height: 243px;
+    filter: grayscale(100%);
+}
+/* Latest News section */
+.latest-news h1{
+    color: #0A0826;
+    font-weight: 600;
+}
+.latest-news .row .card .card-body{
+    padding-left:0px;
+}
+.latest-news .row .card .card-body .card-title{
+    color: #0A0826;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 0px !important;
+}
+.latest-news .row .card .card-footer{
+    border:0;
+    background-color: white;
+}
+
+.latest-news .row .card .card-footer .sp-btn:hover{
+    background-color: white;
+}
+
+/* Happy Client says */
+.happy-clients h1{
+    font-weight: 600;
+}
+.happy-clients .row .card img{
+    width: 149px;
+    height: 149px;
+}
+
+.happy-clients .row .card .card-body p{
+    font-weight: 400;
+}
+.happy-clients .row .card .card-body .stars .fa-star{
+    color: #E77C40;
+    width: 22.01px;
+    height: 22.01px;
+}
+
+.happy-clients .row .card .card-body h6{
+    font-weight: 600;
+    font-size: 14px;
+}
+.happy-clients .row .card .card-footer{
+    border:none;
+    background-color: white;
+}
+.happy-clients .row .card .card-footer h6{
+    color:#252B42;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Frequently Asked Section */
+.frequently-asked h1{
+    font-weight: 600;
+}
+
+/* Corousel section */
+.slider{
+    background-color:#252B42 ;
+    color:white;
+}
+.carousel-inner{
+    padding:7% 10%;
+}
+.slider h1{
+    font-weight: 600;
+}
+.slider_hr_style{
+    border:none;
+    padding: 0;
+    color: none;
+    background-color: none;
+    border:0px;
+    border-bottom: 5px dotted rgb(250, 250, 250);
+    width: 50%;
+}
+
+/* footer */
+footer{
+    background-color: #0B0D17;
+}
+
+.information{
+    color:white;
+    font-weight: 400;
+    font-size:16px;
+}
+.copyright{
+    font-weight: 400;
+    font-size: 14px;
+    color:white;
+}
